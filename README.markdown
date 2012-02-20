@@ -14,8 +14,8 @@ Differences from Befunge-93
 The Apple ][+ has no lowercase characters.  In Apple Befunge, `G`, `P`
 and `V` do what `g`, `p`, and `v` do in Befunge-93.
 
-The Apple ][+ has no ``` (backtick) symbol.  Instead, the `'` (apostrophe)
-symbol is used (it's undefined in Befunge-93.)
+The Apple ][+ has no `` ` `` (backtick) symbol.  Instead, the `'`
+(apostrophe) symbol is used (it's undefined in Befunge-93.)
 
 The Apple ][+ has no `~` (tilde) symbol.  Instead, the `=` (equals sign)
 symbol is used (it's undefined in Befunge-93.)
@@ -34,11 +34,11 @@ Letters `A` through `F` represent values 10 through 15, respectively.
 
 The `;` (semicolon) symbol begins and ends "ignoremode".
 
-If the _x_ argument to `G` is negative, the result is PEEK(_y_).
+If the _x_ argument to `G` is negative, the result is `PEEK(_y_)`.
 
-If the _x_ argument to `P` is negative, the result is POKE _y_, _d_.
+If the _x_ argument to `P` is negative, the result is `POKE _y_, _d_`.
 
-The `]` instruction pops an argument _a_ off the stack; the result is `CALL` _a_.
+The `]` instruction pops an argument _a_ off the stack; the result is `CALL _a_`.
 
 These three instructions allow a direct interface to the architecture of the
 8-bit Apple system on which Apple Befunge is running.
@@ -57,8 +57,7 @@ It contains:
   format.
 
 The distribution also contains the source code, in ASCII text, for
-`APPLE BEFUNGE EDITOR` and `APPLE BEFUNGE RUNNER`.  The source `APPLE BE
-along with a copy of this HTML page.
+`APPLE BEFUNGE EDITOR` and `APPLE BEFUNGE RUNNER`.
 
 License
 -------
