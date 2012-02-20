@@ -1,6 +1,8 @@
 Apple Befunge
 =============
 
+_Version 1.1, February 2012, Chris Pressey, Cat's Eye Technologies_
+
 Apple Befunge is a "retrolanguage" for the Apple ][+.  Being written
 in Applesoft BASIC, it should also work on an Apple //e or similar
 model of 8-bit Apple computer (or, of course, an emulator thereof.)
@@ -34,11 +36,12 @@ Letters `A` through `F` represent values 10 through 15, respectively.
 
 The `;` (semicolon) symbol begins and ends "ignoremode".
 
-If the _x_ argument to `G` is negative, the result is `PEEK(_y_)`.
+If the _x_ argument to `G` is negative, the result is `PEEK(`_y_`)`.
 
-If the _x_ argument to `P` is negative, the result is `POKE _y_, _d_`.
+If the _x_ argument to `P` is negative, the result is `POKE `_y_`, `_d_.
 
-The `]` instruction pops an argument _a_ off the stack; the result is `CALL _a_`.
+The `]` instruction pops an argument _a_ off the stack; the result is
+`CALL `_a_.
 
 These three instructions allow a direct interface to the architecture of the
 8-bit Apple system on which Apple Befunge is running.
@@ -50,20 +53,28 @@ The distribution contains an Apple disk image, formatted with _ESDOS ][_.
 It contains:
 
 * a full visual debugger/editor for Apple Befunge called
-  `APPLE BEFUNGE EDITOR`;
-* a less obtrustive but unfinished interpreter called
-  `APPLE BEFUNGE RUNNER`; and
+  `APPLE BEFUNGE EDITOR`; and
 * a handful of Befunge programs which have been converted to Apple Befunge
   format.
 
 The distribution also contains the source code, in ASCII text, for
-`APPLE BEFUNGE EDITOR` and `APPLE BEFUNGE RUNNER`.
+`APPLE BEFUNGE EDITOR`.  It is intended to be copied-and-pasted into an
+Apple ][+ emulator.  This process, and the program itself, have been
+tested on a recent version of [AppleWin](http://applewin.berlios.de/).
+
+In version 1.0 of the distribution there was also a program called
+`APPLE BEFUNGE RUNNER`; its source code was intended to be pasted into
+the emulator after that of `APPLE BEFUNGE EDITOR`, acting as a sort of
+"diff", adding and deleting lines.  This proved to be a nuisance for
+maintaining `APPLE BEFUNGE EDITOR`.  And I think `APPLE BEFUNGE EDITOR`
+alone sort of gets the point across.  So in version 1.1, `APPLE BEFUNGE
+RUNNER` was abandoned.
 
 License
 -------
 
-The source code for `APPLE BEFUNGE EDITOR` and `APPLE BEFUNGE RUNNER` are
-hereby placed, by me, the author, in the public domain.
+The source code for `APPLE BEFUNGE EDITOR` is hereby placed, by me, the
+author, in the public domain.
 
 Known Bugs and Shortcomings
 ---------------------------
@@ -76,6 +87,7 @@ longer know how, but I could probably look it up.
 Subtle bug in either `%` (modulo) or `'` (greater than) or `hex.bf` --
 not entirely sure which.
 
-A good reorganization of `APPLE BEFUNGE EDITOR` source is in order.  The
+A good reorganization of `APPLE BEFUNGE EDITOR`'s source is in order.  The
 push and pop subroutines should probably be as near the beginning of the
-program as possible.  Should hold more constant values in variables.
+program as possible.  More constant values should be held in variables, as
+well.
