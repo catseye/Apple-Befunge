@@ -38,3 +38,13 @@ purposes, especially given its function.  ESDOS ][-formatted disk images
 have been available for download on the Internet for years now with, it would
 seem, no controversy at all.  (But don't go reverse-engineering it or trying
 to sell it, as that's likely not what its authors had in mind.)
+
+-----------------------------------------------------------------------------
+
+The contributed Befunge-93 example sources included on the disk image
+are copyrighted works made by their respective authors.  They are not
+open-source or in the public domain, but their contributors' willingness to
+allow them to be included in this distribution implies that they are all
+freely redistributable unmodified for non-commercial purposes.  If you wish
+to base your next best-selling novel on one of them, you should seek out and
+contact its author for permission first.
