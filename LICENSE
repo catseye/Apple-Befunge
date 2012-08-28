@@ -1,0 +1,40 @@
+The software comprising Apple Befunge proper is in the public domain, as
+described in the following Unlicense:
+
+-----------------------------------------------------------------------------
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>
+
+-----------------------------------------------------------------------------
+
+The disk image included in the distribution contains boot code which is
+part of the ESDOS ][ disk format.  This is most likely copyrighted material
+and therefore NOT in the public domain.  However, it is difficult to imagine
+that its authors object to this code being redistributed for non-commercial
+purposes, especially given its function.  ESDOS ][-formatted disk images
+have been available for download on the Internet for years now with, it would
+seem, no controversy at all.  (But don't go reverse-engineering it or trying
+to sell it, as that's likely not what its authors had in mind.)
