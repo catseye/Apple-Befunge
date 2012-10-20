@@ -6,7 +6,7 @@ _Version 1.1, February 2012, Chris Pressey, Cat's Eye Technologies_
 Apple Befunge is a "retrolanguage" for the Apple ][+.  Being written
 in Applesoft BASIC, it should also work on an Apple //e or similar
 model of 8-bit Apple computer (or, of course, an emulator thereof.)
-It is based largely on [Befunge-93](https://catseye.tc/projects/befunge93/),
+It is based largely on [Befunge-93](https://catseye.tc/node/Befunge-93.html),
 with some Befunge-98-isms, and some instructions and behaviour peculiar to
 the Apple 8-bit architecture.
 
@@ -49,8 +49,8 @@ These three instructions allow a direct interface to the architecture of the
 Implementations
 ---------------
 
-The distribution contains an Apple disk image, formatted with _ESDOS ][_.
-It contains:
+The distribution contains an Apple disk image, formatted with _ESDOS ][_,
+in the `disk` subdirectory.  It contains:
 
 * a full visual debugger/editor for Apple Befunge called
   `APPLE BEFUNGE EDITOR`; and
@@ -58,9 +58,12 @@ It contains:
   format.
 
 The distribution also contains the source code, in ASCII text, for
-`APPLE BEFUNGE EDITOR`.  It is intended to be copied-and-pasted into an
-Apple ][+ emulator.  This process, and the program itself, have been
-tested on a recent version of [AppleWin](http://applewin.berlios.de/).
+`APPLE BEFUNGE EDITOR`, in the `src` subdirectory.  It is intended to be
+copied-and-pasted into an Apple ][+ emulator.  This process, and the
+program itself, have been tested on a recent version of
+[AppleWin](http://applewin.berlios.de/).  (And for this reason, and because
+I have not yet found a decent Apple ][+ emulator for non-Windows systems,
+the source code file has CRLF line terminators.  This is intentional.)
 
 In version 1.0 of the distribution there was also a program called
 `APPLE BEFUNGE RUNNER`; its source code was intended to be pasted into
